@@ -1,0 +1,36 @@
+{
+  "name": "sg_transportation_app",
+  "version": "1.0.0",
+  "description": "A realtime application which shows Bus Routes and Bus ETAs via LTA's API.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "geospatial",
+    "api",
+    "redis",
+    "proxy",
+    "realtime"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "consolidate": "^0.16.0",
+    "express": "^4.17.1",
+    "mustache": "^4.0.1",
+    "openurl": "^1.1.1",
+    "path": "^0.12.7",
+    "redis": "^3.1.2",
+    "request": "^2.88.2",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^4.1.3",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
