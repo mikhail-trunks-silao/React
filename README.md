@@ -1,29 +1,50 @@
-# sg-transportation
-### A Bus route visualisation NodeJs site I built to aid me in an analytical task. 
-#### Currently deployed at: https://sg-transportation.glitch.me/
-#### Backup link at: https://sg-transportation.onrender.com
+<div align="center">
+  <img src="https://github.com/incubated-geek-cc/sg-transportation/raw/main/public/img/logo.png" width="96" alt="logo">
 
-### Integrated with an instance of Redis caching for in-memory storage. More details at: https://redis.com/
+  # SG Bus Routes
 
-### Article(s) related to web app at: 
-#### 1. [Tackling Heroku H12 timeout errors of Node.js Web APIs — Handling Long Response Times](https://towardsdatascience.com/tackling-heroku-h12-timeout-errors-of-node-js-web-apis-handling-long-response-times-8fbafe46cd40)
-#### 2. [Building a real-time web app in NodeJS Express with Socket.io library](https://towardsdatascience.com/building-a-real-time-web-app-in-nodejs-express-with-socket-io-library-d9b50aded6e6)
+**Bus route visualisation site built to aid me in an analytical task. Related articles are:**
+<div align="left">
+	<ol>
+		<li><a href='https://towardsdatascience.com/tackling-heroku-h12-timeout-errors-of-node-js-web-apis-handling-long-response-times-8fbafe46cd40' target='_blank'>Tackling Heroku H12 timeout errors of Node.js Web APIs — Handling Long Response Times</a></li>
+		<li><a href='https://towardsdatascience.com/building-a-real-time-web-app-in-nodejs-express-with-socket-io-library-d9b50aded6e6' target='_blank'>Building a real-time web app in NodeJS Express with Socket.io library</a></li>
+	</ol>
+</div>
+</div>
 
-### Realtime Bus ETAs in Singapore
-<br/>![Bus ETAs](https://miro.medium.com/max/1400/1*QKFF2dM6D7apIZfRLn30Jg.png)
-### Bus Route Origin-Destination selection
-<br/>![OD Selection](https://miro.medium.com/max/1050/1*dDjLS1LBpUOlTFh357ozLg.png)
-### Bus Route data export functionality
-<br/>![Data Export](https://miro.medium.com/max/1050/1*MrnOOOJPG62tror-WAPseg.png)
+Bus stops, bus services and bus routes are called via [LTA's Public API](https://datamall.lta.gov.sg/content/datamall/en.html). Faster retrieval via [Redis](https://redis.com/) caching for in-memory storage. Realtime bus ETAs in Singapore can be displayed based on bus stop selected.
+
+[**Web App :: Link**](https://sg-transportation.glitch.me/) &nbsp;&nbsp;&nbsp; [**Web App :: Backup Link**](https://sg-transportation.onrender.com) 
+
+## Features and Screenshots
+
+<p><strong>Displays Realtime Bus ETAs: 📱 Mobile & 💻 🖥️  Larger Screens</strong></p>
+<br/><img src="https://miro.medium.com/max/1400/1*QKFF2dM6D7apIZfRLn30Jg.png" width="800px" />
+
+<p><strong>Enables Selection of Route Origin-Destination</strong></p>
+<br/><img src="https://miro.medium.com/max/1050/1*dDjLS1LBpUOlTFh357ozLg.png" width="800px" />
+
+<p><strong>Exports Bus Route as JSON data (based on earlier selections)</strong></p>
+<br/><img src="https://miro.medium.com/max/1050/1*MrnOOOJPG62tror-WAPseg.png" width="800px" />
+
+## 📜 License
+
+Data © [LTA](http://www.mytransport.sg/content/mytransport/home/dataMall/termOfUse.html) © [OneMap](https://www.onemap.sg/legal/termsofuse.html) © [OSM contributors](https://www.openstreetmap.org/copyright). Everything else: [MIT](http://cheeaun.mit-license.org/)
+
 ---
 ## ⚠️ Important Note: As of 12 Nov 2022, UI has been revamped with existing functionalities still in place. 
 
-### Select Bus Route:
-#### 📱 Mobile View:
+<p><strong>Select Bus Service No. to render route</strong></p>
+📱 Mobile View
 <br/><img src="https://github.com/incubated-geek-cc/sg-transportation/raw/main/public/img/updated_mobile_ui.jpg" width="250px" />
-#### 💻 🖥️ On Larger Screens:
+💻 🖥️ On Larger Screens:
 <br/><img src="https://github.com/incubated-geek-cc/sg-transportation/raw/main/public/img/updated_ui.jpg" width="800px" />
-### Origin-Destination selection for data export
+
+<p><strong>Origin-Destination selection for data export</strong></p>
 <br/><img src="https://github.com/incubated-geek-cc/sg-transportation/raw/main/public/img/updated_ui_bus_route_od_selection.jpg" width="800px" />
-### Bus Route Realtime ETA
+
+<p><strong>Bus Stop Realtime ETA</strong></p>
 <br/><img src="https://github.com/incubated-geek-cc/sg-transportation/raw/main/public/img/updated_ui_bus_etas.jpg" width="800px" />
+
+## Special Mention(s)
+- Inspired by [BusrouterSG by cheeaun](https://github.com/cheeaun/busrouter-sg).
