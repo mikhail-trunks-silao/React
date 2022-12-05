@@ -1,0 +1,42 @@
+{
+    "route_name": "Jaro-CPU",
+    "route_number": 1,
+    "waypoints": [
+        {
+            "waypoint_id":"Jaro_CPU_1",
+            "latitude": 10.69268107270692, 
+            "longtitude": 122.58280231157424
+        },
+        {
+            "waypoint_id":"Jaro_CPU_2",
+            "latitude":10.690250436943042, 
+            "longtitude": 122.5822026303957
+        },
+        {
+            "waypoint_id":"Jaro_CPU_3",
+            "latitude":10.689637645936, 
+            "longtitude":122.58207120215589
+        },
+        {
+            "waypoint_id":"Jaro_CPU_4",
+            "latitude":10.68947588627106, 
+            "longtitude":122.58195995934786
+        },
+        {
+            "waypoint_id":"Jaro_CPU_5",
+            "latitude":10.689344775194696, 
+            "longtitude":122.58177492736203
+        },
+        {
+            "waypoint_id":"Jaro_CPU_6",
+            "latitude":10.68899818498128, 
+            "longtitude":122.58113253828881
+        },
+        {
+            "waypoint_id":"Jaro_CPU_7",
+            "latitude": 10.688365623894104, 
+            "longtitude": 122.57979948042782
+        }
+
+    ]
+}
